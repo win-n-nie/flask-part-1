@@ -13,5 +13,5 @@ def about():
 def contact():
     return 'haha im not actually going to put my information here'
 if __name__ == '_main_':
-    app.run(debug=True, host='34.171.176.230', port=80)
+    app.run(debug=True, host='0.0.0.0', port=80)
 

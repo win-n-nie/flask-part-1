@@ -5,11 +5,11 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello world!'
 
-@app.route('/')
+@app.route('/other')
 def about():
     return 'this the about us page!'
 
-@app.route('/')
+@app.route('/next')
 def contact():
     return 'haha im not going to put my information here'
 

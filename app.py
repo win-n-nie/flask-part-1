@@ -15,5 +15,5 @@ def contact():
 
 
 if __name__ == '_main':
-    app.run(debug=True, host= '0.0.0.0', port=80)
+    app.run(debug=True, host= '0.0.0.0', port=443)
 
